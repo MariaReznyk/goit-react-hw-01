@@ -1,33 +1,36 @@
 .table {
-    width: 100%;
-    border-collapse: collapse;
-  
-    background-color: white;
-    text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+
+  background-color: white;
+  text-align: center;
 }
 
 .thead {
-    color: white;
-    background-color: rgb(48, 48, 48);
-    font-weight: bold;
+  color: white;
+  background-color: rgb(48, 48, 48);
+  font-weight: bold;
 }
 
 .th {
-    padding: 5px 10px;
-    border: 1px solid black;
-    color: white;
+  padding: 5px 10px;
+  border: 1px solid black;
+  color: white;
 }
 
 .tr {
-    &:nth-of-type(even) {
-      background-color: #cccccc;
-    }
+  &:nth-of-type(even) {
+    background-color: #cccccc;
+  }
 }
 
 .td {
-    padding: 5px 10px;
-    border: 1px solid black;
-    color: black;
+  padding: 5px 10px;
+  border: 1px solid black;
+  color: black;
 }
 
-.td:first-of-type {text-align: left; padding-left: 80px;}
+.td:first-of-type {
+  text-align: left;
+  padding-left: 80px;
+}
